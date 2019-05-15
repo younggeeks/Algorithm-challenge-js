@@ -1,10 +1,8 @@
-import "./styles.css";
-
 function merge(leftPile, rightPile) {
   let leftIndex = 0;
   let rightIndex = 0;
   let sortedPile = [];
-  
+
   //while all piles have items
   while (leftIndex < leftPile.length && rightIndex < rightPile.length) {
     if (leftPile[leftIndex] < rightPile[rightIndex]) {
